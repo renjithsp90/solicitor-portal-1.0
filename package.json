@@ -1,0 +1,45 @@
+{
+  "name": "solicitor-portal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@azure/msal-browser": "^3.7.1",
+    "@azure/msal-react": "^2.0.9",
+    "@headlessui/react": "^1.7.18",
+    "axios": "^1.7.2",
+    "axois": "^0.0.1-security",
+    "cookies-next": "^4.2.1",
+    "daisyui": "^0.1.10",
+    "date-fns": "^3.3.1",
+    "date-holidays": "^3.23.11",
+    "next": "^14.2.4",
+    "next-auth": "^4.24.5",
+    "pdfmake": "^0.2.9",
+    "pdfmake-unicode": "^0.0.1",
+    "react": "^18",
+    "react-cookie": "^7.1.4",
+    "react-datepicker": "^6.1.0",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.29",
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^20",
+    "@types/pdfmake": "^0.2.8",
+    "@types/react": "^18",
+    "@types/react-datepicker": "^6.0.1",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
