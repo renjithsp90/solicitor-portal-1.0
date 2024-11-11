@@ -136,13 +136,13 @@ function RateInformation(props: props) {
                                                         </div>
 
                                                         <div
-                                                            className="dcc-flex dcc-items-center dcc-justify-between sp-grid-bottom-border dcc-py-4">
-                                                            <p className="dcc-font-normal dcc-text-base dcc-mb-0">Instalment Amount<span className="has-hint"><span
+                                                            className="dcc-flex dcc-items-center dcc-justify-between dcc-gap-4 sp-grid-bottom-border dcc-py-4">
+                                                            <p className="dcc-font-normal dcc-text-base dcc-mb-0 dcc-flex dcc-items-center">Instalment Amount<span className="has-hint"><span
                                                                 className="hint-tooltip hint--right"
                                                                 aria-label="If a minus sign is showing the account is in credit">
                                                                 <em className="user-tip"></em>
                                                             </span></span></p>
-                                                            <p className="dcc-font-normal dcc-text-lg dcc-mb-0">${installment.amount.toFixed(2)}<span className="has-hint"><span
+                                                            <p className="dcc-font-normal dcc-text-lg dcc-mb-0 dcc-flex dcc-items-center">${installment.amount.toFixed(2)}<span className="has-hint"><span
                                                                 className="hint-tooltip hint--right"
                                                                 aria-label="If a minus sign is showing the account is in credit">
                                                                 <em className="user-tip"></em>
